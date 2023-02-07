@@ -1,7 +1,9 @@
 import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
+import { FriendList } from './FriendList/FriendList';
 import user from 'data/user';
 import data from 'data/data';
+import friends from 'data/friends';
 
 export const App = () => {
   const {
@@ -15,11 +17,13 @@ export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        flexDirection: 'column',
+        padding: '15px',
         fontSize: 40,
+        gap: '20px',
         color: '#010101',
       }}
     >
@@ -34,6 +38,8 @@ export const App = () => {
       />
 
       <Statistics title="Upload stats" data={data} />
+
+      <FriendList friends={friends} />
     </div>
   );
 };

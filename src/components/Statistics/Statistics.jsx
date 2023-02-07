@@ -19,7 +19,9 @@ export const Statistics = ({ title, data }) => {
             <StatItem
               key={id}
               qty={data.length}
-              bgColor={Math.floor(Math.random() * 16777215).toString(16)}
+              bgColor={Math.floor(
+                (Math.random() * (1 - 0.2) + 0.2) * 16777215
+              ).toString(16)}
             >
               <Label>{label}</Label>
               <Percentage>{percentage}%</Percentage>

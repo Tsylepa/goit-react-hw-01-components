@@ -1,11 +1,12 @@
 import styled from '@emotion/styled';
 
 export const Stats = styled.section`
-  margin: 20px;
+  display: inline-block;
   border-radius: 4px;
   text-align: center;
   box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.2);
   background-color: #fff;
+  overflow: hidden;
 `;
 
 export const Title = styled.h2`
