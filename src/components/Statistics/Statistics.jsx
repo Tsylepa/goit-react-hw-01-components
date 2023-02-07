@@ -18,7 +18,6 @@ export const Statistics = ({ title, data }) => {
           return (
             <StatItem
               key={id}
-              qty={data.length}
               bgColor={Math.floor(
                 (Math.random() * (1 - 0.2) + 0.2) * 16777215
               ).toString(16)}

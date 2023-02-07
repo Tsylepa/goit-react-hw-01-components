@@ -3,8 +3,8 @@ import styled from '@emotion/styled';
 export const StatsList = styled.ul`
   display: flex;
   justify-content: space-between;
-  background-color: #fbfbfb;
-  border-top: 1px solid #cdcdcd;
+  background-color: var(--table-contrast-color);
+  border-top: var(--table-border);
 
   span {
     margin: 4px 0;
@@ -13,10 +13,10 @@ export const StatsList = styled.ul`
 `;
 
 export const StatsItem = styled.li`
-  width: calc(100% / ${({ qty }) => qty});
+  width: 80px;
 
   :not(:first-of-type) {
-    border-left: 1px solid #cdcdcd;
+    border-left: var(--table-border);
   }
 `;
 

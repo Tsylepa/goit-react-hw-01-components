@@ -7,7 +7,7 @@ export const ProfileStats = props => {
     <StatsList>
       {keys.map(key => {
         return (
-          <StatsItem key={key} qty={keys.length}>
+          <StatsItem key={key}>
             <Label>{key}</Label>
             <Quantity>
               {props[key].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}

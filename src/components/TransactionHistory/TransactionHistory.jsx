@@ -3,7 +3,7 @@ import {
   Head,
   Body,
   Transaction,
-} from './TransactinHistory.styled';
+} from './TransactionHistory.styled';
 
 export const TransactionHistory = ({ transactions }) => {
   return (

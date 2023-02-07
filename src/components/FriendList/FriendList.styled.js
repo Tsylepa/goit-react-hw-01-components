@@ -10,18 +10,19 @@ export const Friend = styled.li`
   display: flex;
   align-items: center;
   width: 300px;
-  background-color: #fff;
+  background-color: var(--light-color);
   gap: 12px;
   padding: 10px;
   border-radius: 4px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: var(--shadow-small);
 `;
 
 export const Status = styled.span`
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: ${({ isOnline }) => (isOnline ? 'green' : 'red')};
+  background-color: ${({ isOnline }) =>
+    isOnline ? 'var(--status-online)' : 'var(--status-offline)'};
 `;
 
 export const Avatar = styled.img``;

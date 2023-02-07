@@ -4,8 +4,8 @@ export const Stats = styled.section`
   display: inline-block;
   border-radius: 4px;
   text-align: center;
-  box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.2);
-  background-color: #fff;
+  box-shadow: var(--shadow);
+  background-color: var(--light-color);
   overflow: hidden;
 `;
 
@@ -20,9 +20,9 @@ export const StatList = styled.ul`
 `;
 
 export const StatItem = styled.li`
-  width: calc(100% / ${({ qty }) => qty});
+  width: 80px;
   background-color: #${({ bgColor }) => bgColor};
-  color: #fff;
+  color: var(--light-color);
   padding: 10px;
 `;
 

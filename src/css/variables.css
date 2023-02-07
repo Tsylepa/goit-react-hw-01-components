@@ -1,0 +1,12 @@
+:root {
+  --profile-card-color: #909090;
+  --light-color: #ffffff;
+  --shadow: 0 0 8px 3px rgba(0, 0, 0, 0.2);
+  --shadow-small: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+  --table-contrast-color: #0000000d;
+  --table-border: 1px solid var(--table-contrast-color);
+  --thead-color: #6bb3b3;
+  --tbody-font-color: #717171;
+  --status-online: #09be09;
+  --status-offline: #ff0000;
+}

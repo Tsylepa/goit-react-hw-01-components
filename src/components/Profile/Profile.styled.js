@@ -4,11 +4,11 @@ export const Card = styled.div`
   display: inline-block;
   text-align: center;
   border-radius: 4px;
-  color: #cdcdcd;
+  color: var(--profile-card-color);
   text-transform: capitalize;
   font-size: 16px;
-  background-color: #fff;
-  box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.2);
+  background-color: var(--light-color);
+  box-shadow: var(--shadow);
   overflow: hidden;
 `;
 
