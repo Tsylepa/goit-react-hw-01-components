@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { ProfileStats } from 'components/ProfileStats/ProfileStats';
+import { ProfileStats } from 'components/Profile/ProfileStats/ProfileStats';
 import {
   Card,
   Description,
